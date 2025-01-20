@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f7f7f7;
+  font-family: "Quicksand", serif;
+}
+header {
+  width: 100%;
+  margin: 20px 0px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar .logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 28px;
+  font-weight: 700;
+}
+.navbar .list-tems {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.navbar .list-tems a {
+  text-decoration: none;
+  color: black;
+}
+.list-tems li .one {
+  color: #fea301;
+}
+.list-tems li .two {
+  color: #01acfd;
+}
+.list-tems li .three {
+  color: #05d4df;
+}
+.list-tems li .four {
+  color: #5d58ef;
+}
+.navbar button {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 8px;
+  background-color: #fea301;
+  color: #f7f7f7;
+  font-weight: 700;
+}
+.button img {
+  height: 40px;
+  text-align: center;
+  display: none;
+}
+/* banner */
+.banner {
+  margin: 15px 120px;
+}
+.banner .banner-container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.banner-title {
+  width: 290px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 45px;
+}
+.banner-title .span1 {
+  color: #fea301;
+}
+.banner-title .span2 {
+  color: #01acfd;
+}
+.banner-description {
+  font-size: 18px;
+  font-weight: 500;
+}
+.banner-item div button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #111111;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 8px;
+}
+@media screen and (max-width: 576px) {
+    .navbar {
+      padding-bottom: 10px;
+      border-bottom: 1px solid #4e4e4e;
+    }
+    .logo h2 {
+      display: none;
+    }
+    .navbar .list-tems {
+      display: none;
+    }
+    .navbar button {
+      display: none;
+    }
+    .button img {
+      display: block;
+    }
+    /* banner */
+    .banner{
+      margin: 15px 20px;
+    }
+    .banner-container{
+      flex-direction: column-reverse;
+    }
+    .banner-item{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  .image img{
+      width: 350px;
+  }
+  .banner-title{
+      width: 350px;
+      text-align: center;
+  }
+  .banner-description{
+      text-align: center;
+  }
+  
+  }
+
